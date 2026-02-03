@@ -1,0 +1,7 @@
+a = int(input("a:"))
+b = int(input("b:"))
+print("and: ",a>10 and b>10)
+print("and: ",a>10 and b<10)
+print("or: ",a>10 or b<5)
+print("or: ",a>5 or b>10)
+print("not: ",not(a>b))
