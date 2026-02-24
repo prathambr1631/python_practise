@@ -16,3 +16,12 @@ print(f"The sum of numbers from 1 to 10 is: {total}")
 name = "Pratham"
 for letter in name:
     print(letter, end="")
+
+#Write a program that counts how many vowels are in a given string using a for loop.
+string = "Pratham"
+vowels = "aeiouAEIOU"
+num=0
+for char in string:
+    if char in vowels:
+        num += 1
+print(f"The number of vowels in the string '{string}' is: {num}")
